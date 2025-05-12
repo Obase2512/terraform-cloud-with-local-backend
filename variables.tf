@@ -10,6 +10,6 @@ variable "instance_type"{
 
 variable "key_pair"{
   type = string
-  defaultv= "guru"
+  default = "guru"
   
 }
