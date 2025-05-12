@@ -1,20 +1,15 @@
 variable "aws_region"{
   type = string
+  default = "us-east-1"
 }
 
 variable "instance_type"{
   type = string
+  default = "t2.micro"
 }
 
 variable "key_pair"{
   type = string
+  defaultv= "guru"
+  
 }
-
-variable "aws_access_key_id"{
-  type = string
-}
-
-variable "aws_secret_access_key"{
-  type = string
-}
-
